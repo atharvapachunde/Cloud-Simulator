@@ -23,7 +23,7 @@ jobs:
     - name: Compile with javac
       run: |
         mkdir -p out
-        javac -cp "lib/*" -d out src/com/example/cloudsim/*.java
+        javac -cp "lib/*" -d out src/main/java/com/example/vmscheduling/*.java
 
     - name: Run main class
       run: |
