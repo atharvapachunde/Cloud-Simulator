@@ -4,7 +4,6 @@ import org.apache.commons.lang3.time.StopWatch;
 
 import java.util.*;
 import java.util.concurrent.TimeUnit;
-
 public class VMSchedulingSimulator {
 
     public static void main(String[] args) {
